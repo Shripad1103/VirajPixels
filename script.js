@@ -249,16 +249,7 @@ function scrollTriggerAnimation(){
         }
     })
     
-    gsap.from(".squre",{
-        duration:1,
-        opacity:0,
-        scrollTrigger:{
-            trigger:".contact",
-            scroller:"body",
-            // markers:true,
-            start:"top 60%",
-        }
-    })
+   
     
 }
 scrollTriggerAnimation()
