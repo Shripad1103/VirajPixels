@@ -149,9 +149,7 @@ nav a:hover{
     background-color: #0ba34e;
     border: 1px #0ba34e solid;
     color: black;
-    font-size: large;
-    width: 7vw;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     
 }
 
@@ -491,7 +489,7 @@ flex-direction: column;
 
 
 
-
+/* PAGE 5 */
 .gap{
     height: 10vh;
     width: 100%;
@@ -576,9 +574,67 @@ flex-direction: column;
 
 
 
+.page62{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff43;
+    display: none;
+}
+
+.page62 .right{
+    height: 90%;
+    width: 30%;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+
+.page62 .right img{
+    height: 100%;
+    width: 100%;
+}
+
+.page62 .left{
+    height: 90%;
+    margin-left: 9%;
+    width: 50%;
+    color: white;
+    position: relative;
+}
+
+.page62 span{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    text-align: end;
+    line-height: 25px;
+}
+
+.page62 span h2{
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+.page62 span h2:hover{
+    color: #ffffffc1;
+    border:1px solid #ffffffc1;
+}
+
+.page62 a{
+    text-decoration: none;
+    color: white;
+}
 
 
+.page62 a:hover{
+    color: #ffffff82;
+}
 
+/* PAGE 6 */
 .page6{
     height: 100vh;
     width: 100%;
@@ -795,4 +851,3143 @@ footer{
 footer a{
     text-decoration: none;
     color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width:376px){
+
+    body{
+        width: 100%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 6vh;
+    }
+
+    nav h1{
+        font-size: small;
+    }
+
+    #names h4{
+        font-size: xx-small;
+    }
+
+    #names h5 span{
+        font-size: 8px;
+    }
+
+    
+   
+
+    /* PAGE 1 */
+
+    .page1{
+        height: 100vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .page1 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 0vw;
+        letter-spacing: 2px;
+    }
+    
+    .page1-something{
+        font-weight: 200;
+        border: 1px rgb(184, 184, 184) solid;
+        padding: 0px 7px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 2vh;
+    }
+    
+    .moving-div{
+        height: 10vh;
+        margin-top: 10vh;
+        position: absolute;
+        bottom: 15%;
+        background-color: black;
+        width: 75%;
+        overflow: hidden;
+    }
+    
+    .move img{
+        height: 7vw;
+        width: 8vw;
+    }
+    
+    .page1 .camera{
+        height: 60vh;
+        position: absolute;
+        top: 5%;
+        left: -10%;
+        rotate: -30deg;
+        opacity: 10%;
+    }
+
+    .page1 .camera img{
+        height: 100%;
+    }
+
+    /* PAGE 2 */
+
+    .page2{
+        height: 70vh;
+    }
+    
+    
+    .page2-main{
+        width: 90%;
+        margin-left: 2.5%;
+        padding: 7px;
+    }
+    
+    .page2-left{
+        height: 97%;
+        width: 50%;
+    }
+    
+    
+    .page2-right{
+    height: 97%;
+    }
+    
+    .part p{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    
+    .part h6{
+        width: 90%;
+        margin-left: 10px;
+        font-size: 8.5px;
+        font-weight: 20;
+        word-spacing: 0px;
+    }
+
+    /* PAGE 3 */
+
+    .page3{
+        margin-top: 0px;
+        height: 40vh;
+        width: 100%;
+        margin-left: 0%;
+        object-fit: cover;
+        background-image: url(./photographer2.jpg);
+        background-size: 100%;
+    }
+    
+    .page3 h1{
+        position: absolute;
+        font-size: x-small;
+        top: 70%;
+        left: 25%;
+        letter-spacing: 4px;
+    }
+
+    /* PAGE 4 */
+
+    .cover{
+        height: 52vh;
+    }
+    
+    .page4{
+        margin-left: 5%;
+    }
+    
+    .upper{
+        height: 10vh;
+        width: 100%;   
+        color: black;
+        position: relative;
+        border-top: 1px solid black;
+    }
+    
+    .upper h1{
+        font-size: large;
+        top: 20%;
+        word-spacing: 7px;
+        left: 25px;
+    }
+    
+    
+
+    .middle .subdiv h1{
+        font-size: small;
+    }
+
+    .middle .subdiv h4{
+        font-size: x-small;
+    }
+    
+    
+
+    .lower .subdiv h1{
+        font-size: small;
+    }
+
+    .lower .subdiv h4{
+        font-size: x-small;
+    }
+
+
+    /* PAGE 5 */
+    .page5{
+        height: 80vh;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .page5 .left{
+        height: 70%;
+        width: 50%;
+        margin-left: 0%;
+    }
+    
+    .page5 .right{
+        height: 70%;
+        width: 40%;
+        margin-right: 25%;
+    }
+    
+    .page5 span{
+        top: 0%;
+        left: 0%;
+        line-height: 15px;
+        text-align: center;
+    }
+    
+    .page5 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page5 span h1{
+        font-size: large;
+    }
+
+    .page5 span p{
+        font-size: medium;
+    }
+
+    /* Page 6 */
+    .page6{
+        display: none;
+    }
+    .page62{
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    .page62 .right{
+        height: 80%;
+        width: 50%;
+    }
+    
+    .page62 .left{
+        height: 70%;
+        margin-left: 0%;
+        width: 70%;
+    }
+    
+    .page62 span{
+        top: 0%;
+        right: 0%;
+        text-align: center;
+        line-height: 15px;
+    }
+    
+    .page62 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page62 span h1{
+        font-size: large;
+    }
+
+    .page62 span p{
+        font-size: medium;
+    }
+
+    /* Contact */
+
+    .contact{
+        height: 80vh;
+    }
+    
+    
+    .squre{
+        height: 45vh;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    
+    .squre .left{
+        height: 100%;
+        margin-top: 0%;
+        gap: 1vw;
+    }
+
+    .squre .left input{
+        padding: 8px;
+        height: 15px;
+    }
+    
+    #contact{
+        margin-right: 23%;
+        margin-top: 20%;
+        font-size: 4vh;
+    }
+
+    #Message{
+        height: 30px;
+    }
+    
+    .contact button{
+        padding: 7px;
+        border-radius: 10px;
+        height: 29px;
+        width: 70%;
+    }
+    
+    .bar{
+        height: 4vh;
+    }
+    
+    .bar p{
+        font-size: small;
+        margin-left: 53vw;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 5vh;
+        font-size: x-small;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: blue;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:415px){
+
+    body{
+        width: 100%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 4vh;
+    }
+
+    nav h1{
+        font-size: small;
+    }
+
+    #names h4{
+        font-size: xx-small;
+    }
+
+    #names h5 span{
+        font-size: 8px;
+    }
+    
+   
+
+    /* PAGE 1 */
+
+    .page1{
+        height: 80vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .page1 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 0vw;
+        letter-spacing: 2px;
+    }
+    
+    .page1-something{
+        font-weight: 200;
+        border: 1px rgb(184, 184, 184) solid;
+        padding: 0px 7px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 2vh;
+    }
+    
+    .moving-div{
+        height: 10vh;
+        margin-top: 10vh;
+        position: absolute;
+        bottom: 15%;
+        background-color: black;
+        width: 75%;
+        overflow: hidden;
+    }
+    
+    .move img{
+        height: 7vw;
+        width: 8vw;
+    }
+    
+    .page1 .camera{
+        height: 50vh;
+        position: absolute;
+        top: 5%;
+        left: -10%;
+        rotate: -30deg;
+        opacity: 10%;
+    }
+
+    .page1 .camera img{
+        height: 100%;
+    }
+
+    /* PAGE 2 */
+
+    .page2{
+        height: 70vh;
+    }
+    
+    
+    .page2-main{
+        width: 90%;
+        margin-left: 2.5%;
+        padding: 7px;
+    }
+    
+    .page2-left{
+        height: 97%;
+        width: 50%;
+    }
+    
+    
+    .page2-right{
+    height: 97%;
+    }
+    
+    .part p{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    
+    .part h6{
+        width: 90%;
+        margin-left: 10px;
+        font-size: 10px;
+        font-weight: 20;
+        word-spacing: 0px;
+    }
+
+    /* PAGE 3 */
+
+    .page3{
+        margin-top: 0px;
+        height: 35vh;
+        width: 100%;
+        margin-left: 0%;
+        object-fit: cover;
+        background-image: url(./photographer2.jpg);
+        background-size: 100%;
+    }
+    
+    .page3 h1{
+        position: absolute;
+        font-size: x-small;
+        top: 70%;
+        left: 25%;
+        letter-spacing: 4px;
+    }
+
+    /* PAGE 4 */
+
+    .cover{
+        height: 52vh;
+    }
+    
+    .page4{
+        margin-left: 5%;
+    }
+    
+    .upper{
+        height: 10vh;
+        width: 100%;   
+        color: black;
+        position: relative;
+        border-top: 1px solid black;
+    }
+    
+    .upper h1{
+        font-size: large;
+        top: 20%;
+        word-spacing: 7px;
+        left: 25px;
+    }
+    
+    
+
+    .middle .subdiv h1{
+        font-size: small;
+    }
+
+    .middle .subdiv h4{
+        font-size: x-small;
+    }
+    
+    
+
+    .lower .subdiv h1{
+        font-size: small;
+    }
+
+    .lower .subdiv h4{
+        font-size: x-small;
+    }
+
+
+    /* PAGE 5 */
+    .page5{
+        height: 80vh;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .page5 .left{
+        height: 70%;
+        width: 50%;
+        margin-left: 0%;
+    }
+    
+    .page5 .right{
+        height: 70%;
+        width: 40%;
+        margin-right: 25%;
+    }
+    
+    .page5 span{
+        top: 0%;
+        left: 0%;
+        line-height: 15px;
+        text-align: center;
+    }
+    
+    .page5 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page5 span h1{
+        font-size: large;
+    }
+
+    .page5 span p{
+        font-size: medium;
+    }
+
+    /* Page 6 */
+    .page6{
+        display: none;
+    }
+    .page62{
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    .page62 .right{
+        height: 80%;
+        width: 50%;
+    }
+    
+    .page62 .left{
+        height: 70%;
+        margin-left: 0%;
+        width: 70%;
+    }
+    
+    .page62 span{
+        top: 0%;
+        right: 0%;
+        text-align: center;
+        line-height: 15px;
+    }
+    
+    .page62 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page62 span h1{
+        font-size: large;
+    }
+
+    .page62 span p{
+        font-size: medium;
+    }
+
+    /* Contact */
+
+    .contact{
+        height: 60vh;
+    }
+    
+    
+    .squre{
+        height: 40vh;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    
+    .squre .left{
+        height: 100%;
+        margin-top: 0%;
+        gap: 1vw;
+    }
+
+    .squre .left input{
+        padding: 8px;
+        height: 15px;
+    }
+    
+    #contact{
+        margin-right: 23%;
+        margin-top: 20%;
+        font-size: 3.5vh;
+    }
+
+    #Message{
+        height: 30px;
+    }
+    
+    .contact button{
+        padding: 7px;
+        border-radius: 10px;
+        height: 29px;
+        width: 70%;
+    }
+    
+    .bar{
+        height: 4vh;
+    }
+    
+    .bar p{
+        font-size: small;
+        margin-left: 53vw;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 5vh;
+        font-size: x-small;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: blue;
+    }   
+}
+
+
+
+@media (max-width:391px){
+    .part h6{
+        font-size: 9.1px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 431px){
+    body{
+        width: 100%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 4vh;
+    }
+
+    nav h1{
+        font-size: small;
+    }
+
+    #names h4{
+        font-size: xx-small;
+    }
+
+    #names h5 span{
+        font-size: 8px;
+    }
+
+    
+   
+
+    /* PAGE 1 */
+
+    .page1{
+        height: 100vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .page1 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 0vw;
+        letter-spacing: 2px;
+    }
+    
+    .page1-something{
+        font-weight: 200;
+        border: 1px rgb(184, 184, 184) solid;
+        padding: 0px 7px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 2vh;
+    }
+    
+    .moving-div{
+        height: 10vh;
+        margin-top: 10vh;
+        position: absolute;
+        bottom: 15%;
+        background-color: black;
+        width: 75%;
+        overflow: hidden;
+    }
+    
+    .move img{
+        height: 7vw;
+        width: 8vw;
+    }
+    
+    .page1 .camera{
+        height: 60vh;
+        position: absolute;
+        top: 7%;
+        left: -15%;
+        rotate: -30deg;
+        opacity: 10%;
+    }
+
+    .page1 .camera img{
+        height: 100%;
+    }
+
+    /* PAGE 2 */
+
+    .page2{
+        height: 70vh;
+    }
+    
+    
+    .page2-main{
+        width: 90%;
+        margin-left: 2.5%;
+        padding: 7px;
+    }
+    
+    .page2-left{
+        height: 97%;
+        width: 50%;
+    }
+    
+    
+    .page2-right{
+    height: 97%;
+    }
+    
+    .part p{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    
+    .part h6{
+        width: 90%;
+        margin-left: 10px;
+        font-size: 8.5px;
+        font-weight: 20;
+        word-spacing: 0px;
+    }
+
+    /* PAGE 3 */
+
+    .page3{
+        margin-top: 0px;
+        height: 40vh;
+        width: 100%;
+        margin-left: 0%;
+        object-fit: cover;
+        background-image: url(./photographer2.jpg);
+        background-size: 100%;
+    }
+    
+    .page3 h1{
+        position: absolute;
+        font-size: x-small;
+        top: 70%;
+        left: 25%;
+        letter-spacing: 4px;
+    }
+
+    /* PAGE 4 */
+
+    .cover{
+        height: 52vh;
+    }
+    
+    .page4{
+        margin-left: 5%;
+    }
+    
+    .upper{
+        height: 10vh;
+        width: 100%;   
+        color: black;
+        position: relative;
+        border-top: 1px solid black;
+    }
+    
+    .upper h1{
+        font-size: large;
+        top: 20%;
+        word-spacing: 7px;
+        left: 25px;
+    }
+    
+    
+
+    .middle .subdiv h1{
+        font-size: small;
+    }
+
+    .middle .subdiv h4{
+        font-size: x-small;
+    }
+    
+    
+
+    .lower .subdiv h1{
+        font-size: small;
+    }
+
+    .lower .subdiv h4{
+        font-size: x-small;
+    }
+
+
+    /* PAGE 5 */
+    .page5{
+        height: 80vh;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .page5 .left{
+        height: 70%;
+        width: 50%;
+        margin-left: 0%;
+    }
+    
+    .page5 .right{
+        height: 70%;
+        width: 40%;
+        margin-right: 25%;
+    }
+    
+    .page5 span{
+        top: 0%;
+        left: 0%;
+        line-height: 15px;
+        text-align: center;
+    }
+    
+    .page5 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page5 span h1{
+        font-size: large;
+    }
+
+    .page5 span p{
+        font-size: medium;
+    }
+
+    /* Page 6 */
+    .page6{
+        display: none;
+    }
+    .page62{
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    .page62 .right{
+        height: 80%;
+        width: 50%;
+    }
+    
+    .page62 .left{
+        height: 70%;
+        margin-left: 0%;
+        width: 70%;
+    }
+    
+    .page62 span{
+        top: 0%;
+        right: 0%;
+        text-align: center;
+        line-height: 15px;
+    }
+    
+    .page62 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page62 span h1{
+        font-size: large;
+    }
+
+    .page62 span p{
+        font-size: medium;
+    }
+
+    /* Contact */
+
+    .contact{
+        height: 80vh;
+    }
+    
+    
+    .squre{
+        height: 45vh;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    
+    .squre .left{
+        height: 100%;
+        margin-top: 0%;
+        gap: 1vw;
+    }
+
+    .squre .left input{
+        padding: 8px;
+        height: 15px;
+    }
+    
+    #contact{
+        margin-right: 23%;
+        margin-top: 20%;
+        font-size: 4vh;
+    }
+
+    #Message{
+        height: 30px;
+    }
+    
+    .contact button{
+        padding: 7px;
+        border-radius: 10px;
+        height: 29px;
+        width: 70%;
+    }
+    
+    .bar{
+        height: 4vh;
+    }
+    
+    .bar p{
+        font-size: small;
+        margin-left: 53vw;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 5vh;
+        font-size: x-small;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 431px){
+    body{
+        width: 100%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 4vh;
+    }
+
+    nav h1{
+        font-size: small;
+    }
+
+    #names h4{
+        font-size: xx-small;
+    }
+
+    #names h5 span{
+        font-size: 8px;
+    }
+
+
+
+    
+   
+
+    /* PAGE 1 */
+
+    .page1{
+        height: 100vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .page1 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 0vw;
+        letter-spacing: 2px;
+    }
+    
+    .page1-something{
+        font-weight: 200;
+        border: 1px rgb(184, 184, 184) solid;
+        padding: 0px 7px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 2vh;
+    }
+    
+    .moving-div{
+        height: 10vh;
+        margin-top: 10vh;
+        position: absolute;
+        bottom: 15%;
+        background-color: black;
+        width: 75%;
+        overflow: hidden;
+    }
+    
+    .move img{
+        height: 7vw;
+        width: 8vw;
+    }
+    
+    .page1 .camera{
+        height: 60vh;
+        position: absolute;
+        top: 7%;
+        left: -15%;
+        rotate: -30deg;
+        opacity: 10%;
+    }
+
+    .page1 .camera img{
+        height: 100%;
+    }
+
+    /* PAGE 2 */
+
+    .page2{
+        height: 70vh;
+    }
+    
+    
+    .page2-main{
+        width: 90%;
+        margin-left: 2.5%;
+        padding: 7px;
+    }
+    
+    .page2-left{
+        height: 97%;
+        width: 50%;
+    }
+    
+    
+    .page2-right{
+    height: 97%;
+    }
+    
+    .part p{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    
+    .part h6{
+        width: 90%;
+        margin-left: 10px;
+        font-size: 8.5px;
+        font-weight: 20;
+        word-spacing: 0px;
+    }
+
+    /* PAGE 3 */
+
+    .page3{
+        margin-top: 0px;
+        height: 40vh;
+        width: 100%;
+        margin-left: 0%;
+        object-fit: cover;
+        background-image: url(./photographer2.jpg);
+        background-size: 100%;
+    }
+    
+    .page3 h1{
+        position: absolute;
+        font-size: x-small;
+        top: 70%;
+        left: 25%;
+        letter-spacing: 4px;
+    }
+
+    /* PAGE 4 */
+
+    .cover{
+        height: 52vh;
+    }
+    
+    .page4{
+        margin-left: 5%;
+    }
+    
+    .upper{
+        height: 10vh;
+        width: 100%;   
+        color: black;
+        position: relative;
+        border-top: 1px solid black;
+    }
+    
+    .upper h1{
+        font-size: large;
+        top: 20%;
+        word-spacing: 7px;
+        left: 25px;
+    }
+    
+    
+
+    .middle .subdiv h1{
+        font-size: small;
+    }
+
+    .middle .subdiv h4{
+        font-size: x-small;
+    }
+    
+    
+
+    .lower .subdiv h1{
+        font-size: small;
+    }
+
+    .lower .subdiv h4{
+        font-size: x-small;
+    }
+
+
+    /* PAGE 5 */
+    .page5{
+        height: 80vh;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .page5 .left{
+        height: 70%;
+        width: 50%;
+        margin-left: 0%;
+    }
+    
+    .page5 .right{
+        height: 70%;
+        width: 40%;
+        margin-right: 25%;
+    }
+    
+    .page5 span{
+        top: 0%;
+        left: 0%;
+        line-height: 15px;
+        text-align: center;
+    }
+    
+    .page5 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page5 span h1{
+        font-size: large;
+    }
+
+    .page5 span p{
+        font-size: medium;
+    }
+
+    /* Page 6 */
+    .page6{
+        display: none;
+    }
+    .page62{
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    .page62 .right{
+        height: 80%;
+        width: 50%;
+    }
+    
+    .page62 .left{
+        height: 70%;
+        margin-left: 0%;
+        width: 70%;
+    }
+    
+    .page62 span{
+        top: 0%;
+        right: 0%;
+        text-align: center;
+        line-height: 15px;
+    }
+    
+    .page62 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page62 span h1{
+        font-size: large;
+    }
+
+    .page62 span p{
+        font-size: medium;
+    }
+
+    /* Contact */
+
+    .contact{
+        height: 80vh;
+    }
+    
+    
+    .squre{
+        height: 45vh;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    
+    .squre .left{
+        height: 100%;
+        margin-top: 0%;
+        gap: 1vw;
+    }
+
+    .squre .left input{
+        padding: 8px;
+        height: 15px;
+    }
+    
+    #contact{
+        margin-right: 23%;
+        margin-top: 20%;
+        font-size: 4vh;
+    }
+
+    #Message{
+        height: 30px;
+    }
+    
+    .contact button{
+        padding: 7px;
+        border-radius: 10px;
+        height: 29px;
+        width: 70%;
+    }
+    
+    .bar{
+        height: 4vh;
+    }
+    
+    .bar p{
+        font-size: small;
+        margin-left: 53vw;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 5vh;
+        font-size: x-small;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 769px){
+    body{
+        width: 100%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 5vh;
+    }
+
+    nav h1{
+        font-size: large;
+    }
+
+    #names h4{
+        font-size: small;
+    }
+
+    #names h5 span{
+        font-size: 13px;
+    }
+
+
+
+    
+   
+
+    /* PAGE 1 */
+
+    .page1{
+        height: 100vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .page1 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 0vw;
+        letter-spacing: 2px;
+    }
+    
+    .page1-something{
+        font-weight: 200;
+        border: 1px rgb(184, 184, 184) solid;
+        padding: 0px 7px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 2vh;
+    }
+    
+    .moving-div{
+        height: 10vh;
+        margin-top: 10vh;
+        position: absolute;
+        bottom: 15%;
+        background-color: black;
+        width: 75%;
+        overflow: hidden;
+    }
+    
+    .move img{
+        height: 7vw;
+        width: 8vw;
+    }
+    
+    .page1 .camera{
+        height: 70vh;
+        position: absolute;
+        top: 4%;
+        left: -5%;
+        rotate: -30deg;
+        opacity: 10%;
+    }
+
+    .page1 .camera img{
+        height: 100%;
+    }
+
+    /* PAGE 2 */
+
+    .page2{
+        height: 70vh;
+    }
+    
+    
+    .page2-main{
+        width: 90%;
+        margin-left: 2.5%;
+        padding: 7px;
+    }
+    
+    .page2-left{
+        height: 97%;
+        width: 50%;
+    }
+    
+    
+    .page2-right{
+    height: 97%;
+    }
+    
+    .part p{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    .part h6{
+        width: 90%;
+        margin-left: 10px;
+        font-size: 14.5px;
+        font-weight: 20;
+        word-spacing: 0px;
+    }
+
+    /* PAGE 3 */
+
+    .page3{
+        margin-top: 0px;
+        height: 60vh;
+        width: 100%;
+        margin-left: 0%;
+        object-fit: cover;
+        background-image: url(./photographer2.jpg);
+        background-size: 100%;
+    }
+    
+    .page3 h1{
+        position: absolute;
+        font-size: x-small;
+        top: 70%;
+        left: 37%;
+        letter-spacing: 4px;
+    }
+
+    /* PAGE 4 */
+
+    .cover{
+        height: 52vh;
+    }
+    
+    .page4{
+        margin-left: 5%;
+    }
+    
+    .upper{
+        height: 10vh;
+        width: 100%;   
+        color: black;
+        position: relative;
+        border-top: 1px solid black;
+    }
+    
+    .upper h1{
+        font-size: x-large;
+        top: 20%;
+        word-spacing: 7px;
+        left: 25px;
+    }
+    
+    
+
+    .middle .subdiv h1{
+        font-size: large;
+    }
+
+    .middle .subdiv h4{
+        font-size: small;
+    }
+    
+    
+
+    .lower .subdiv h1{
+        font-size: large;
+    }
+
+    .lower .subdiv h4{
+        font-size: small;
+    }
+
+
+    /* PAGE 5 */
+    .page5{
+        height: 80vh;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .page5 .left{
+        height: 70%;
+        width: 50%;
+        margin-left: 0%;
+    }
+    
+    .page5 .right{
+        height: 70%;
+        width: 40%;
+        margin-right: 0%;
+    }
+    
+    .page5 span{
+        top: 0%;
+        left: 0%;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .page5 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page5 span h1{
+        font-size: large;
+    }
+
+    .page5 span p{
+        font-size: medium;
+    }
+
+    /* Page 6 */
+    .page6{
+        display: none;
+    }
+    .page62{
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    .page62 .right{
+        height: 80%;
+        width: 50%;
+    }
+    
+    .page62 .left{
+        height: 70%;
+        margin-left: -25%;
+        width: 70%;
+    }
+    
+    .page62 span{
+        top: 0%;
+        right: 0%;
+        text-align: center;
+        line-height: 25px;
+    }
+    
+    .page62 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page62 span h1{
+        font-size: large;
+    }
+
+    .page62 span p{
+        font-size: medium;
+    }
+
+    /* Contact */
+
+    .contact{
+        height: 80vh;
+    }
+    
+    
+    .squre{
+        height: 45vh;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    
+    .squre .left{
+        height: 100%;
+        margin-top: 0%;
+        gap: 1vw;
+    }
+
+    .squre .left input{
+        padding: 8px;
+        height: 15px;
+    }
+    
+    #contact{
+        margin-right: 23%;
+        margin-top: 20%;
+        font-size: 4vh;
+    }
+
+    #Message{
+        height: 30px;
+    }
+    
+    .contact button{
+        padding: 7px;
+        border-radius: 10px;
+        height: 29px;
+        width: 70%;
+    }
+    
+    .bar{
+        height: 4vh;
+    }
+    
+    .bar p{
+        font-size: small;
+        margin-left: 53vw;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 5vh;
+        font-size: x-small;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 821px){
+    body{
+        width: 100%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 5vh;
+    }
+
+    nav h1{
+        font-size: large;
+    }
+
+    #names h4{
+        font-size: small;
+    }
+
+    #names h5 span{
+        font-size: 13px;
+    }
+
+    /* PAGE 1 */
+
+    .page1{
+        height: 100vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .page1 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 0vw;
+        letter-spacing: 2px;
+    }
+    
+    .page1-something{
+        font-weight: 200;
+        border: 1px rgb(184, 184, 184) solid;
+        padding: 0px 7px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 2vh;
+    }
+    
+    .moving-div{
+        height: 10vh;
+        margin-top: 10vh;
+        position: absolute;
+        bottom: 15%;
+        background-color: black;
+        width: 75%;
+        overflow: hidden;
+    }
+    
+    .move img{
+        height: 7vw;
+        width: 8vw;
+    }
+    
+    .page1 .camera{
+        height: 70vh;
+        position: absolute;
+        top: 4%;
+        left: -5%;
+        rotate: -30deg;
+        opacity: 10%;
+    }
+
+    .page1 .camera img{
+        height: 100%;
+    }
+
+    /* PAGE 2 */
+
+    .page2{
+        height: 70vh;
+    }
+    
+    
+    .page2-main{
+        width: 90%;
+        margin-left: 2.5%;
+        padding: 7px;
+    }
+    
+    .page2-left{
+        height: 97%;
+        width: 50%;
+    }
+    
+    
+    .page2-right{
+    height: 97%;
+    }
+    
+    .part p{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    .part h6{
+        width: 90%;
+        margin-left: 10px;
+        font-size: 14.5px;
+        font-weight: 20;
+        word-spacing: 0px;
+    }
+
+    /* PAGE 3 */
+
+    .page3{
+        margin-top: 0px;
+        height: 50vh;
+        width: 100%;
+        margin-left: 0%;
+        object-fit: cover;
+        background-image: url(./photographer2.jpg);
+        background-size: 100%;
+    }
+    
+    .page3 h1{
+        position: absolute;
+        font-size: x-small;
+        top: 70%;
+        left: 37%;
+        letter-spacing: 4px;
+    }
+
+    /* PAGE 4 */
+
+    .cover{
+        height: 52vh;
+    }
+    
+    .page4{
+        margin-left: 5%;
+    }
+    
+    .upper{
+        height: 10vh;
+        width: 100%;   
+        color: black;
+        position: relative;
+        border-top: 1px solid black;
+    }
+    
+    .upper h1{
+        font-size: x-large;
+        top: 20%;
+        word-spacing: 7px;
+        left: 25px;
+    }
+    
+    
+
+    .middle .subdiv h1{
+        font-size: large;
+    }
+
+    .middle .subdiv h4{
+        font-size: small;
+    }
+    
+    
+
+    .lower .subdiv h1{
+        font-size: large;
+    }
+
+    .lower .subdiv h4{
+        font-size: small;
+    }
+
+
+    /* PAGE 5 */
+    .page5{
+        height: 80vh;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .page5 .left{
+        height: 70%;
+        width: 50%;
+        margin-left: 0%;
+    }
+    
+    .page5 .right{
+        height: 70%;
+        width: 40%;
+        margin-right: 0%;
+    }
+    
+    .page5 span{
+        top: 0%;
+        left: 0%;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .page5 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page5 span h1{
+        font-size: large;
+    }
+
+    .page5 span p{
+        font-size: medium;
+    }
+
+    /* Page 6 */
+    .page6{
+        display: none;
+    }
+    .page62{
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    .page62 .right{
+        height: 80%;
+        width: 50%;
+    }
+    
+    .page62 .left{
+        height: 70%;
+        margin-left: -25%;
+        width: 70%;
+    }
+    
+    .page62 span{
+        top: 0%;
+        right: 0%;
+        text-align: center;
+        line-height: 25px;
+    }
+    
+    .page62 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page62 span h1{
+        font-size: large;
+    }
+
+    .page62 span p{
+        font-size: medium;
+    }
+
+    /* Contact */
+
+    .contact{
+        height: 80vh;
+    }
+    
+    
+    .squre{
+        height: 45vh;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    
+    .squre .left{
+        height: 100%;
+        margin-top: 0%;
+        gap: 1vw;
+    }
+
+    .squre .left input{
+        padding: 8px;
+        height: 15px;
+    }
+    
+    #contact{
+        margin-right: 23%;
+        margin-top: 20%;
+        font-size: 4vh;
+    }
+
+    #Message{
+        height: 30px;
+    }
+    
+    .contact button{
+        padding: 7px;
+        border-radius: 10px;
+        height: 29px;
+        width: 70%;
+    }
+    
+    .bar{
+        height: 4vh;
+    }
+    
+    .bar p{
+        font-size: small;
+        margin-left: 53vw;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 5vh;
+        font-size: x-small;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 1025px){
+    body{
+        width: 100%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 5vh;
+    }
+
+    nav h1{
+        font-size: x-large;
+    }
+
+    #names h4{
+        font-size: large;
+    }
+
+    #names h5 span{
+        font-size: 15px;
+    }
+
+    /* PAGE 1 */
+
+    .page1{
+        height: 100vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .page1 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 0vw;
+        letter-spacing: 2px;
+    }
+    
+    .page1-something{
+        font-weight: 200;
+        border: 1px rgb(184, 184, 184) solid;
+        padding: 0px 7px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 2vh;
+    }
+    
+    .moving-div{
+        height: 10vh;
+        margin-top: 10vh;
+        position: absolute;
+        bottom: 15%;
+        background-color: black;
+        width: 75%;
+        overflow: hidden;
+    }
+    
+    .move img{
+        height: 7vw;
+        width: 8vw;
+    }
+    
+    .page1 .camera{
+        height: 70vh;
+        position: absolute;
+        top: 4%;
+        left: -5%;
+        rotate: -30deg;
+        opacity: 10%;
+    }
+
+    .page1 .camera img{
+        height: 100%;
+    }
+
+    /* PAGE 2 */
+
+    .page2{
+        height: 70vh;
+    }
+    
+    
+    .page2-main{
+        width: 90%;
+        margin-left: 2.5%;
+        padding: 7px;
+    }
+    
+    .page2-left{
+        height: 97%;
+        width: 50%;
+    }
+    
+    
+    .page2-right{
+    height: 97%;
+    }
+    
+    .part p{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    
+    .part h6{
+        width: 90%;
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: 200;
+        word-spacing: 0px;
+    }
+
+    /* PAGE 3 */
+
+    .page3{
+        margin-top: 0px;
+        height: 58vh;
+        width: 100%;
+        margin-left: 0%;
+        object-fit: cover;
+        background-image: url(./photographer2.jpg);
+        background-size: 100%;
+    }
+    
+    .page3 h1{
+        position: absolute;
+        font-size: x-small;
+        top: 70%;
+        left: 37%;
+        letter-spacing: 4px;
+    }
+
+    /* PAGE 4 */
+
+    .cover{
+        height: 52vh;
+    }
+    
+    .page4{
+        margin-left: 5%;
+    }
+    
+    .upper{
+        height: 10vh;
+        width: 100%;   
+        color: black;
+        position: relative;
+        border-top: 1px solid black;
+    }
+    
+    .upper h1{
+        font-size: xx-large;
+        top: 20%;
+        word-spacing: 7px;
+        left: 25px;
+    }
+    
+    
+
+    .middle .subdiv h1{
+        font-size: x-large;
+    }
+
+    .middle .subdiv h4{
+        font-size: large;
+    }
+    
+    
+
+    .lower .subdiv h1{
+        font-size: x-large;
+    }
+
+    .lower .subdiv h4{
+        font-size: large;
+    }
+
+
+    /* PAGE 5 */
+    .page5{
+        height: 80vh;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .page5 .left{
+        height: 70%;
+        width: 50%;
+        margin-left: 0%;
+    }
+    
+    .page5 .right{
+        height: 70%;
+        width: 40%;
+        margin-left: 16%;
+    }
+    
+    .page5 span{
+        top: 0%;
+        left: 0%;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .page5 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page5 span h1{
+        font-size: large;
+    }
+
+    .page5 span p{
+        font-size: medium;
+    }
+
+    /* Page 6 */
+    .page6{
+        display: none;
+    }
+    .page62{
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    .page62 .right{
+        height: 80%;
+        width: 50%;
+    }
+    
+    .page62 .left{
+        height: 70%;
+        margin-right: 45%;
+        width: 70%;
+    }
+    
+    .page62 span{
+        top: 0%;
+        right: 0%;
+        text-align: center;
+        line-height: 25px;
+    }
+    
+    .page62 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page62 span h1{
+        font-size: large;
+    }
+
+    .page62 span p{
+        font-size: medium;
+    }
+
+    /* Contact */
+
+    .contact{
+        height: 80vh;
+    }
+    
+    
+    .squre{
+        height: 45vh;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    
+    .squre .left{
+        height: 100%;
+        margin-top: 0%;
+        gap: 1vw;
+    }
+
+    .squre .left input{
+        padding: 8px;
+        height: 15px;
+    }
+    
+    #contact{
+        margin-right: 23%;
+        margin-top: 20%;
+        font-size: 4vh;
+    }
+
+    #Message{
+        height: 30px;
+    }
+    
+    .contact button{
+        padding: 7px;
+        border-radius: 10px;
+        height: 29px;
+        width: 70%;
+    }
+    
+    .bar{
+        height: 4vh;
+    }
+    
+    .bar p{
+        font-size: small;
+        margin-left: 53vw;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 5vh;
+        font-size: large;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 913px){
+    body{
+        width: 100%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 5vh;
+    }
+
+    nav h1{
+        font-size: x-large;
+    }
+
+    #names h4{
+        font-size: large;
+    }
+
+    #names h5 span{
+        font-size: 15px;
+    }
+
+    /* PAGE 1 */
+
+    .page1{
+        height: 100vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .page1 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 0vw;
+        letter-spacing: 2px;
+    }
+    
+    .page1-something{
+        font-weight: 200;
+        border: 1px rgb(184, 184, 184) solid;
+        padding: 0px 7px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 2vh;
+    }
+    
+    .moving-div{
+        height: 10vh;
+        margin-top: 10vh;
+        position: absolute;
+        bottom: 15%;
+        background-color: black;
+        width: 75%;
+        overflow: hidden;
+    }
+    
+    .move img{
+        height: 7vw;
+        width: 8vw;
+    }
+    
+    .page1 .camera{
+        height: 70vh;
+        position: absolute;
+        top: 4%;
+        left: -5%;
+        rotate: -30deg;
+        opacity: 10%;
+    }
+
+    .page1 .camera img{
+        height: 100%;
+    }
+
+    /* PAGE 2 */
+
+    .page2{
+        height: 70vh;
+    }
+    
+    
+    .page2-main{
+        width: 90%;
+        margin-left: 2.5%;
+        padding: 7px;
+    }
+    
+    .page2-left{
+        height: 97%;
+        width: 50%;
+    }
+    
+    
+    .page2-right{
+    height: 97%;
+    }
+    
+    .part p{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    
+    .part h6{
+        width: 90%;
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: 200;
+        word-spacing: 0px;
+    }
+
+    /* PAGE 3 */
+
+    .page3{
+        margin-top: 0px;
+        height: 52vh;
+        width: 100%;
+        margin-left: 0%;
+        object-fit: cover;
+        background-image: url(./photographer2.jpg);
+        background-size: 100%;
+    }
+    
+    .page3 h1{
+        position: absolute;
+        font-size: x-small;
+        top: 70%;
+        left: 37%;
+        letter-spacing: 4px;
+    }
+
+    /* PAGE 4 */
+
+    .cover{
+        height: 52vh;
+    }
+    
+    .page4{
+        margin-left: 5%;
+    }
+    
+    .upper{
+        height: 10vh;
+        width: 100%;   
+        color: black;
+        position: relative;
+        border-top: 1px solid black;
+    }
+    
+    .upper h1{
+        font-size: xx-large;
+        top: 20%;
+        word-spacing: 7px;
+        left: 25px;
+    }
+    
+    
+
+    .middle .subdiv h1{
+        font-size: x-large;
+    }
+
+    .middle .subdiv h4{
+        font-size: large;
+    }
+    
+    
+
+    .lower .subdiv h1{
+        font-size: x-large;
+    }
+
+    .lower .subdiv h4{
+        font-size: large;
+    }
+
+
+    /* PAGE 5 */
+    .page5{
+        height: 80vh;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .page5 .left{
+        height: 70%;
+        width: 50%;
+        margin-left: 0%;
+    }
+    
+    .page5 .right{
+        height: 70%;
+        width: 40%;
+        margin-left: 16%;
+    }
+    
+    .page5 span{
+        top: 0%;
+        left: 0%;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .page5 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page5 span h1{
+        font-size: large;
+    }
+
+    .page5 span p{
+        font-size: medium;
+    }
+
+    /* Page 6 */
+    .page6{
+        display: none;
+    }
+    .page62{
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    .page62 .right{
+        height: 80%;
+        width: 50%;
+    }
+    
+    .page62 .left{
+        height: 70%;
+        margin-right: 45%;
+        width: 70%;
+    }
+    
+    .page62 span{
+        top: 0%;
+        right: 0%;
+        text-align: center;
+        line-height: 25px;
+    }
+    
+    .page62 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page62 span h1{
+        font-size: large;
+    }
+
+    .page62 span p{
+        font-size: medium;
+    }
+
+    /* Contact */
+
+    .contact{
+        height: 80vh;
+    }
+    
+    
+    .squre{
+        height: 45vh;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    
+    .squre .left{
+        height: 100%;
+        margin-top: 0%;
+        gap: 1vw;
+    }
+
+    .squre .left input{
+        padding: 8px;
+        height: 15px;
+    }
+    
+    #contact{
+        margin-right: 23%;
+        margin-top: 20%;
+        font-size: 4vh;
+    }
+
+    #Message{
+        height: 30px;
+    }
+    
+    .contact button{
+        padding: 7px;
+        border-radius: 10px;
+        height: 29px;
+        width: 70%;
+    }
+    
+    .bar{
+        height: 4vh;
+    }
+    
+    .bar p{
+        font-size: small;
+        margin-left: 53vw;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 5vh;
+        font-size: large;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 541px){
+    body{
+        width: 100%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 5vh;
+    }
+
+    nav h1{
+        font-size: small;
+    }
+
+    #names h4{
+        font-size: xx-small;
+    }
+
+    #names h5 span{
+        font-size: 8px;
+    }
+
+
+
+    
+   
+
+    /* PAGE 1 */
+
+    .page1{
+        height: 100vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .page1 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 0vw;
+        letter-spacing: 2px;
+    }
+    
+    .page1-something{
+        font-weight: 200;
+        border: 1px rgb(184, 184, 184) solid;
+        padding: 0px 7px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 2vh;
+    }
+    
+    .moving-div{
+        height: 10vh;
+        margin-top: 10vh;
+        position: absolute;
+        bottom: 15%;
+        background-color: black;
+        width: 75%;
+        overflow: hidden;
+    }
+    
+    .move img{
+        height: 7vw;
+        width: 8vw;
+    }
+    
+    .page1 .camera{
+        height: 60vh;
+        position: absolute;
+        top: 7%;
+        left: -5%;
+        rotate: -30deg;
+        opacity: 10%;
+    }
+
+    .page1 .camera img{
+        height: 100%;
+    }
+
+    /* PAGE 2 */
+
+    .page2{
+        height: 70vh;
+    }
+    
+    
+    .page2-main{
+        width: 90%;
+        margin-left: 2.5%;
+        padding: 7px;
+    }
+    
+    .page2-left{
+        height: 97%;
+        width: 50%;
+    }
+    
+    
+    .page2-right{
+    height: 97%;
+    }
+    
+    .part p{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    
+    .part h6{
+        width: 90%;
+        margin-left: 10px;
+        font-size: 8.5px;
+        font-weight: 20;
+        word-spacing: 0px;
+    }
+
+    /* PAGE 3 */
+
+    .page3{
+        margin-top: 0px;
+        height: 59vh;
+        width: 100%;
+        margin-left: 0%;
+        object-fit: cover;
+        background-image: url(./photographer2.jpg);
+        background-size: 100%;
+    }
+    
+    .page3 h1{
+        position: absolute;
+        font-size: x-small;
+        top: 70%;
+        left: 25%;
+        letter-spacing: 4px;
+    }
+
+    /* PAGE 4 */
+
+    .cover{
+        height: 52vh;
+    }
+    
+    .page4{
+        margin-left: 5%;
+    }
+    
+    .upper{
+        height: 10vh;
+        width: 100%;   
+        color: black;
+        position: relative;
+        border-top: 1px solid black;
+    }
+    
+    .upper h1{
+        font-size: large;
+        top: 20%;
+        word-spacing: 7px;
+        left: 25px;
+    }
+    
+    
+
+    .middle .subdiv h1{
+        font-size: small;
+    }
+
+    .middle .subdiv h4{
+        font-size: x-small;
+    }
+    
+    
+
+    .lower .subdiv h1{
+        font-size: small;
+    }
+
+    .lower .subdiv h4{
+        font-size: x-small;
+    }
+
+
+    /* PAGE 5 */
+    .page5{
+        height: 80vh;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .page5 .left{
+        height: 70%;
+        width: 50%;
+        margin-left: 0%;
+    }
+    
+    .page5 .right{
+        height: 70%;
+        width: 40%;
+        margin-right: 25%;
+    }
+    
+    .page5 span{
+        top: 0%;
+        left: 0%;
+        line-height: 15px;
+        text-align: center;
+    }
+    
+    .page5 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page5 span h1{
+        font-size: large;
+    }
+
+    .page5 span p{
+        font-size: medium;
+    }
+
+    /* Page 6 */
+    .page6{
+        display: none;
+    }
+    .page62{
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    .page62 .right{
+        height: 80%;
+        width: 50%;
+    }
+    
+    .page62 .left{
+        height: 70%;
+        margin-left: 33%;
+        width: 70%;
+    }
+    
+    .page62 span{
+        top: 0%;
+        right: 0%;
+        text-align: center;
+        line-height: 15px;
+    }
+    
+    .page62 span h2{
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+    .page62 span h1{
+        font-size: large;
+    }
+
+    .page62 span p{
+        font-size: medium;
+    }
+
+    /* Contact */
+
+    .contact{
+        height: 80vh;
+    }
+    
+    
+    .squre{
+        height: 45vh;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    
+    .squre .left{
+        height: 100%;
+        margin-top: 0%;
+        gap: 1vw;
+    }
+
+    .squre .left input{
+        padding: 8px;
+        height: 15px;
+    }
+    
+    #contact{
+        margin-right: 23%;
+        margin-top: 20%;
+        font-size: 4vh;
+    }
+
+    #Message{
+        height: 30px;
+    }
+    
+    .contact button{
+        padding: 7px;
+        border-radius: 10px;
+        height: 29px;
+        width: 70%;
+    }
+    
+    .bar{
+        height: 4vh;
+    }
+    
+    .bar p{
+        font-size: small;
+        margin-left: 53vw;
+    }
+
+    /* Footer */
+
+    footer{
+        height: 5vh;
+        font-size: x-small;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: blue;
+    }
 }
